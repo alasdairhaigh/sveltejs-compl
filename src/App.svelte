@@ -39,7 +39,7 @@ Description: <textarea rows="3" bind:value={description} />
 
 <ContactCard 
 	userName={name} 
-	jobTitle={jobTitle} 
-	description={description} 
+	{jobTitle} 
+	{description} 
 	userImage={image} 
 />
