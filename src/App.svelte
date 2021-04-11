@@ -1,4 +1,6 @@
 <script>
+	import ContactCard from './ContactCard.svelte';
+	
 	let name = 'Max';
 	let age = 30;
 
@@ -31,3 +33,5 @@
 <!-- <button on:click={changeName}>Change name</button> -->
 <!-- <input type="text" value={name} on:input={nameInput}> -->
 <input type="text" bind:value={name}>
+
+<ContactCard />
