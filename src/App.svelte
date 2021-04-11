@@ -34,4 +34,4 @@
 <!-- <input type="text" value={name} on:input={nameInput}> -->
 <input type="text" bind:value={name}>
 
-<ContactCard />
+<ContactCard userName="Alasdair" />
